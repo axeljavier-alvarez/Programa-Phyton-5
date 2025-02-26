@@ -6,7 +6,7 @@ from tkinter import ttk, filedialog
 from tkcalendar import DateEntry
 #instalar calendario pip install tkcalendar view/toolwindows/terminal
 tree = ttk.Treeview
-
+#donde se guardara
 DATA_FILE = "tareas.txt"
 
 def focus_next_widget(event):
